@@ -12,9 +12,7 @@ public class OrderDto {
     private List<PizzaOrderDto> pizzas;
     private PersonOrderDto person;
 
-    public OrderDto() {
-
-    }
+    public OrderDto() {}
 
     public OrderDto(Integer id, OrderStatusType status, List<PizzaOrderDto> pizzas, PersonOrderDto person) {
         this.id = id;
